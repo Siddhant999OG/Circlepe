@@ -71,7 +71,7 @@ const Step1 = ({ onProceed, showSearchBar, activeIcon, handleIconClick }) => {
   const showContent = activeIcon === 'home' || (activeIcon === 'search' && searchQuery);
 
   return (
-    <div className="mt-4 w-[320px] h-[650px] border-[16px] border-black rounded-[50px] bg-gray-100 mx-auto relative overflow-hidden shadow-lg flex flex-col">
+    <div className="mt-7 w-[320px] h-[650px] border-[16px] border-black rounded-[50px] bg-gray-100 mx-auto relative overflow-hidden shadow-lg flex flex-col">
       {/* Dynamic Island */}
       <div className="absolute top-0 left-1/4 w-1/2 h-4 bg-black rounded-b-[20px]"></div>
 
