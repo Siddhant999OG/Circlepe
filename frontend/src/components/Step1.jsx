@@ -78,16 +78,9 @@ const Step1 = ({ onProceed, showSearchBar, activeIcon, handleIconClick }) => {
       {/* Content inside iPhone */}
       <div className="flex-grow p-4 space-y-4 overflow-auto mb-14">
         <div className="flex items-center">
-          <button
-            className="text-xl flex-shrink-0"
-            onClick={() => handleIconClick('home')}
-          >
-            ←
-          </button>
           <h1 className="text-xl font-semibold flex-grow text-center ml-6">
             {activeIcon === 'search' ? 'Search results' : 'Properties'}
           </h1>
-          <button className="text-xl flex-shrink-0">🔧</button>
         </div>
 
         {activeIcon === 'search' && showSearchBar && (
